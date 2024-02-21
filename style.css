@@ -1,0 +1,648 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+/* ----------------NavBar--------------- */
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0px;
+  background-color: #0f171c;
+  position: fixed;
+}
+nav .logo {
+  display: flex;
+  margin-left: 100px;
+}
+nav .logo h2 {
+  width: 100%;
+  color: #ffcf01;
+  font-family: cursive;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+  margin-right: -80px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  margin-right: 50px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  padding-bottom: 8px;
+  /* transition: all ease 0.3s; */
+}
+
+nav ul li a:hover {
+  color: #ffcf01;
+  border-bottom: 2px solid #ffcf01;
+}
+nav .btns {
+  margin-left: 50px;
+}
+nav .btns .btn1,
+.btn2 {
+  padding: 12px 26px;
+  color: #0f171c;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid #ffcf01;
+  font-weight: 100;
+}
+
+nav .btns .btn1 {
+  background-color: #ffcf01;
+  border: 2px solid #ffcf01;
+  margin-right: 12px;
+  transition: all ease 0.4s;
+}
+nav .btns .btn1:hover {
+  background-color: #ffe055;
+  cursor: pointer;
+}
+nav .btns .btn2 {
+  background-color: #0f171c;
+  border: 1.5px solid #ffcf01;
+  color: #ffcf01;
+  transition: all ease 0.4s;
+}
+nav .btns .btn2:hover {
+  background-color: #ffd00133;
+  cursor: pointer;
+}
+nav i {
+  color: #fff;
+  font-size: 28px;
+  margin-right: 20px;
+  margin-left: -100px;
+  transition: all ease-in-out 0.3s;
+}
+
+nav i:hover {
+  cursor: pointer;
+  color: #ffcf01;
+}
+
+/* ------------------Home--------------- */
+
+.Home {
+  width: 100%;
+  background-image: url(/imahes/exness-home-page-banner-desktop-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Home h2 {
+  font-size: 50px;
+  color: #fff;
+  padding-left: 70px;
+  padding-top: 130px;
+  line-height: 58px;
+  padding-bottom: 12px;
+}
+.Home p {
+  font-size: 20px;
+  line-height: 1.33;
+  color: #e0e0e0;
+  padding-left: 70px;
+}
+
+.buttons {
+  padding-left: 75px;
+  margin-top: 55px;
+  padding-bottom: 107px;
+}
+
+.buttons .btn3 {
+  padding: 12px 35px;
+  font-size: 16px;
+  border: 1px solid #ffcf01;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #ffcf01;
+}
+
+.buttons .btn4 {
+  padding: 12px 21px;
+  font-size: 16px;
+  background-color: #00000075;
+  color: #ffcf01;
+  border: 1px solid #ffcf01;
+  border-radius: 5px;
+}
+
+.buttons .btn4:hover {
+  background-color: #ffd00138;
+  cursor: pointer;
+}
+
+.buttons .btn3:hover {
+  background-color: rgb(255, 218, 55);
+  cursor: pointer;
+}
+
+/* ------------------Instant--------------- */
+.instant {
+  background-color: #0f171c;
+  padding-top: 100px;
+  width: 100%;
+}
+
+.instant .item1 {
+  display: inline-block;
+  margin-left: 381px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.instant .item1 h3 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 100;
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+.instant .item1 p {
+  word-spacing: 2px;
+  text-align: center;
+  color: #fff;
+  line-height: 1.53;
+  word-spacing: 2px;
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+.instant .item1 a {
+  padding-left: 110px;
+  text-decoration: none;
+
+  color: #ffcf01;
+}
+
+.instant .item1 a:hover {
+  text-decoration: underline;
+}
+
+.instant .item2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -35px;
+}
+
+.instant .item2 img {
+  margin: 12px 60px;
+  padding: 20px 12px;
+}
+
+.instant .item3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 70px;
+}
+
+.instant .item3 img {
+  margin-left: 30px;
+}
+
+.instant .item3 p {
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 9px;
+  margin-right: -20px;
+}
+
+.instant .item3 p a {
+  color: #ffcf01;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.instant .item3 p a:hover {
+  text-decoration: underline;
+}
+
+.third {
+  display: flex;
+}
+
+.third #item1 {
+  width: 50%;
+  background-color: #4a4a4a;
+  padding-bottom: 40px;
+}
+
+.third #item2 {
+  width: 50%;
+  padding-bottom: 40px;
+  background-color: #575757;
+}
+
+.third .items {
+  padding-top: 60px;
+  padding-left: 115px;
+}
+
+.third .items h3 {
+  color: #fff;
+  font-size: 25px;
+  line-height: 1.33;
+  font-weight: 300;
+}
+
+.third .items p {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 40px;
+  padding-bottom: 70px;
+}
+
+.third .items a {
+  text-decoration: none;
+  color: #ffcf01;
+  font-size: 16px;
+}
+
+.third .items a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* ------------------Access and trade--------------- */
+.access {
+  width: 100%;
+  padding-top: 50px;
+  background-color: #cdcdcd;
+}
+
+.access h3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.access .cardes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 75px;
+  padding-bottom: 55px;
+  gap: 30px;
+}
+
+.access .cardes .cards {
+  width: 350px;
+  height: 320px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+.access .cardes .cards img {
+  padding-top: 40px;
+  margin-left: 125px;
+}
+
+.access .cardes .cards h4 {
+  font-size: 25px;
+  font-weight: 600;
+  padding-top: 22px;
+  text-align: center;
+}
+
+.access .cardes .cards p {
+  text-align: center;
+  padding: 22px 40px;
+  line-height: 1.73;
+  padding-bottom: 30px;
+}
+
+.access .cardes .cards a {
+  text-decoration: none;
+  color: rgb(15, 81, 146);
+  margin-left: 125px;
+  font-size: 16px;
+}
+
+.access .cardes .cards a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* ------------------Account-------------- */
+
+.account {
+  width: 100%;
+  background-color: #f2f2f2;
+  padding-top: 50px;
+}
+
+.account h3 {
+  text-align: center;
+  color: #0f171c;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.account .boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+
+.account .boxes .boxs {
+  width: 578px;
+  height: 410px;
+  border-radius: 5px;
+}
+
+.account .boxes #box1 {
+  background-color: #0f171c;
+}
+
+.account .boxes .boxs h4:first-child {
+  color: white;
+  font-size: 28px;
+  padding: 60px 0px 50px 55px;
+}
+
+.account .boxes .boxs .sup-heading {
+  display: flex;
+  padding-left: 55px;
+}
+
+.account .boxes .boxs .sup-heading h5 {
+  color: #fff;
+  font-size: 24px;
+  padding-right: 40px;
+  border-bottom: 1.5px dashed #fff;
+  padding-right: 0px;
+  margin-right: 20px;
+}
+
+.account .boxes .boxs p {
+  padding-left: 55px;
+  padding-top: 40px;
+  padding-right: 50px;
+  font-size: 18px;
+  line-height: 1.33;
+  word-spacing: 2px;
+  color: #fff;
+}
+
+.account .boxes .boxs .btn5 {
+  padding: 13px 40px;
+  font-size: 15px;
+  border-radius: 5px;
+  color: #ffcf01;
+  background: transparent;
+  border: 1px solid #ffcf01;
+  margin-top: 35px;
+  margin-left: 350px;
+}
+
+.account .boxes #box2 {
+  background-color: #2a3136;
+}
+
+/* ------------------Exness Number---------------  */
+
+.number {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-color: rgb(222, 222, 222);
+}
+.number .item1 {
+  width: 580px;
+  height: 480px;
+  margin-left: 40px;
+  padding: 160px 0px;
+}
+
+.number .item1 h3 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.number .item1 p {
+  font-size: 18px;
+  padding: 15px 32px;
+  font-weight: 100;
+}
+.number .item1 a {
+  text-decoration: none;
+  color: #194d73;
+  padding-left: 32px;
+  font-size: 16px;
+}
+.number .item1 a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.number .item2 {
+  width: 580px;
+  height: 530px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.number .item2 .boxes {
+  width: 580px;
+  height: 132px;
+}
+
+.number .item2 .boxes h3 {
+  font-size: 35px;
+  font-weight: 100;
+  padding-top: 30px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.number .item2 .boxes p {
+  text-align: center;
+  font-size: 18px;
+}
+
+/* ------------------Register--------------- */
+.register {
+  width: 100%;
+  height: 400px;
+  background-image: url(/Logo/download\ 3.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.register .bg-color {
+  width: 100%;
+  height: 400px;
+
+  background-color: #00000092;
+}
+.register h3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
+  color: #fff;
+  padding-top: 100px;
+  /* padding-bottom: 40px; */
+}
+.register p {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  word-spacing: 2px;
+  padding: 30px 390px;
+  line-height: 33px;
+}
+.register .btn7 {
+  margin-left: 620px;
+  padding: 14px 35px;
+  font-size: 16px;
+  border: 1px solid #ffcf01;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #ffcf01;
+  color: #272727;
+  transition: all ease-in-out 0.3s;
+}
+
+.register .btn7:hover {
+  background-color: #0f171c;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* ------------------Footer--------------- */
+
+footer {
+  display: flex;
+  gap: 20px;
+  padding-top: 60px;
+}
+
+footer .frist {
+  width: 400px;
+  height: 300px;
+  margin-left: 40px;
+}
+footer .frist .content {
+  display: flex;
+}
+footer .frist h2 {
+  padding-top: 50px;
+  font-size: 25px;
+  font-weight: 300;
+  word-spacing: 2px;
+}
+footer .frist h2 span {
+  font-family: cursive;
+  font-size: 28px;
+  color: #ffcf01;
+  margin-right: 3px;
+  margin-left: 66px;
+}
+footer .frist img {
+  margin-top: 50px;
+  margin-left: 2px;
+}
+
+footer .frist .icons {
+  display: flex;
+  gap: 10px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+footer .frist .icons .icon {
+  width: 30px;
+  height: 30px;
+  background-color: #272727;
+  padding-top: 4px;
+  padding-left: 4px;
+  border-radius: 50%;
+}
+footer .frist .icons .icon i {
+  font-size: 20px;
+  color: #cacaca;
+}
+footer .second {
+  width: 790px;
+  height: 540px;
+  padding-left: 300px;
+}
+footer .second p {
+  font-size: 14px;
+  margin-bottom: 16px;
+  color: #272727;
+  padding: 8px 20px;
+}
+
+/* ------------------Copyright---------------  */
+
+.copyright {
+  width: 100%;
+}
+
+.copyright img {
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.copyright .text {
+  display: flex;
+  padding-left: 50px;
+  padding-bottom: 40px;
+}
+
+.copyright .text a {
+  margin-right: 30px;
+  text-decoration: none;
+  color: #272727;
+  font-size: 14px;
+  transition: all ease-in-out 0.3s;
+}
+
+.copyright .text a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.copyright .text p {
+  margin-left: 700px;
+  color: #272727;
+  font-size: 14px;
+}
+
+.msg {
+  width: 63px;
+  height: 63px;
+  background-color: #676767;
+  border-radius: 50%;
+  padding: 10px 12px;
+  position: fixed;
+  right: 12px;
+  bottom: 12px;
+}
+.msg i {
+  font-size: 38px;
+  color: #f9f9f9;
+}
